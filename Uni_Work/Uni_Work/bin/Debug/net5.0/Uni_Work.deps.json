@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Uni_Work/1.0.0": {
+        "dependencies": {
+          "YamlDotNet.RepresentationModel": "2.2.0"
+        },
+        "runtime": {
+          "Uni_Work.dll": {}
+        }
+      },
+      "YamlDotNet.Core/2.2.0": {
+        "runtime": {
+          "lib/net35/YamlDotNet.Core.dll": {
+            "assemblyVersion": "2.0.1.27808",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "YamlDotNet.RepresentationModel/2.2.0": {
+        "dependencies": {
+          "YamlDotNet.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/net35/YamlDotNet.RepresentationModel.dll": {
+            "assemblyVersion": "2.0.1.27808",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Uni_Work/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YamlDotNet.Core/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kFWKVSsHVlS2XJIf6gtrR1ZiYOrYd+hf1L11QkS6tpP0baf9y8ULsmMpVJWzljZd8C5975sAmSISMT3Xya8E1A==",
+      "path": "yamldotnet.core/2.2.0",
+      "hashPath": "yamldotnet.core.2.2.0.nupkg.sha512"
+    },
+    "YamlDotNet.RepresentationModel/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3bdS0HqEQ96eC+7O/LgIWh6AmOAxwqVi1Pyq9XUL2pUOft8Rj3WKFyGR5DJKuWP2WVjnS1+IL6wkXOu7uqVBIA==",
+      "path": "yamldotnet.representationmodel/2.2.0",
+      "hashPath": "yamldotnet.representationmodel.2.2.0.nupkg.sha512"
+    }
+  }
+}
